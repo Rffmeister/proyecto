@@ -1,11 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
 </head>
 <body>
-    <h1>ubicalos!</h1>
+<div class="container">
 
-</body>
+		<form class="well form-horizontal" action=" " method="post"  id="contact_form">
+	<fieldset>
+	
+	<!-- Form Name -->
+	<legend>ubícalos ya!</legend>
+	
+	<!-- Text input-->
+	<div class="form-group">
+			<label class="col-md-4 control-label">sexo</label>
+			<div class="col-md-4">
+				<div class="radio">
+					<label>
+						<input type="radio" name="hosting" value="Yes" /> Mujer
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" name="hosting" value="No" /> Hombre
+					</label>
+				</div>
+			</div>
+		</div>
+	<div class="form-group">
+	  <label class="col-md-4 control-label">Primer Nombre</label>  
+	  <div class="col-md-4 inputGroupContainer">
+	  <div class="input-group">
+	  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+	  <input  name="first_name" placeholder="primer nombre" class="form-control"  type="text">
+		</div>
+	  </div>
+	</div>
+	
+	<!-- Text input-->
+	
+	<div class="form-group">
+	  <label class="col-md-4 control-label" >apellidos</label> 
+		<div class="col-md-4 inputGroupContainer">
+		<div class="input-group">
+	  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+	  <input name="last_name" placeholder="Apellidos" class="form-control"  type="text">
+		</div>
+	  </div>
+	</div>
+	
+	<!-- Text input-->
+		   <div class="form-group">
+	  <label class="col-md-4 control-label">Dirección E-Mail</label>  
+		<div class="col-md-4 inputGroupContainer">
+		<div class="input-group">
+			<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+	  <input name="email" placeholder="E-M@il" class="form-control"  type="text">
+		</div>
+	  </div>
+	</div>
+	
+	
+	<!-- Text input-->
+		   
+	<div class="form-group">
+	  <label class="col-md-4 control-label">Telefono</label>  
+		<div class="col-md-4 inputGroupContainer">
+		<div class="input-group">
+			<span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+	  <input name="phone" placeholder="(555)..." class="form-control" type="text">
+		</div>
+	  </div>
+	</div>
+	
+	<!-- Text input-->
+		  
+	<div class="form-group">
+	  <label class="col-md-4 control-label">Dirección</label>  
+		<div class="col-md-4 inputGroupContainer">
+		<div class="input-group">
+			<span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+	  <input name="address" placeholder="Dirección" class="form-control" type="text">
+		</div>
+	  </div>
+	</div>
+	
+	<!-- Text input-->
+	 
+	<div class="form-group">
+	  <label class="col-md-4 control-label">Ciudad</label>  
+		<div class="col-md-4 inputGroupContainer">
+		<div class="input-group">
+			<span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+	  <input name="city" placeholder="ciudad" class="form-control"  type="text">
+		</div>
+	  </div>
+	</div>
+	
+	<!-- Select Basic -->
+	   
+	<div class="form-group"> 
+	  <label class="col-md-4 control-label">Estado</label>
+		<div class="col-md-4 selectContainer">
+		<div class="input-group">
+			<span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+		<select name="state" class="form-control selectpicker" >
+		  <option value=" " >Selecciona tu estado</option>
+		  <option value="AGUASCALIENTES">AGUASCALIENTES</option>
+<option value="BAJA CALIFORNIA">BAJA CALIFORNIA</option>
+<option value="BAJA CALIFORNIA SUR">BAJA CALIFORNIA SUR</option>
+<option value="CHIAPAS">CHIAPAS</option>
+<option value="CHIHUAHUA">CHIHUAHUA</option>
+<option value="CIUDAD DE MÉXICO">CIUDAD DE MÉXICO</option>
+<option value="COAHUILA DE ZARAGOZA">COAHUILA DE ZARAGOZA</option>
+<option value="COLIMA">COLIMA</option>
+<option value="DURANGO">DURANGO</option>
+<option value="EXTRANJERO">EXTRANJERO</option>
+<option value="GUANAJUATO">GUANAJUATO</option>
+<option value="GUERRERO">GUERRERO</option>
+<option value="HIDALGO">HIDALGO</option>
+<option value="JALISCO">JALISCO</option>
+<option value="MÉXICO">MÉXICO</option>
+<option value="MICHOACÁN DE OCAMPO">MICHOACÁN DE OCAMPO</option>
+<option value="MORELOS">MORELOS</option>
+<option value="NAYARIT">NAYARIT</option>
+<option value="NO DISPONIBLE">NO DISPONIBLE</option>
+<option value="NUEVO LEÓN">NUEVO LEÓN</option>
+<option value="OAXACA">OAXACA</option>
+<option value="PUEBLA">PUEBLA</option>
+<option value="QUERÉTARO">QUERÉTARO</option>
+<option value="QUINTANA ROO">QUINTANA ROO</option>
+<option value="SAN LUIS POTOSÍ">SAN LUIS POTOSÍ</option>
+<option value="SINALOA">SINALOA</option>
+<option value="SONORA">SONORA</option>
+<option value="TABASCO">TABASCO</option>
+<option value="TAMAULIPAS">TAMAULIPAS</option>
+<option value="TLAXCALA">TLAXCALA</option>
+<option value="VERACRUZ DE IGNACIO DE LA LLAVE">VERACRUZ DE IGNACIO DE LA LLAVE</option>
+<option value="YUCATÁN">YUCATÁN</option>
+<option value="ZACATECAS">ZACATECAS</option>
+		</select>
+	  </div>
+	</div>
+	</div>
+	
+	<!-- Text input-->
+	
+	<div class="form-group">
+	  <label class="col-md-4 control-label">Código postal</label>  
+		<div class="col-md-4 inputGroupContainer">
+		<div class="input-group">
+			<span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+	  <input name="zip" placeholder="Código Postal" class="form-control"  type="text">
+		</div>
+	</div>
+	</div>
+	
+	<!-- Text input-->
+	<div class="form-group">
+	  <label class="col-md-4 control-label">Descripción</label>  
+	   <div class="col-md-4 inputGroupContainer">
+		<div class="input-group">
+			<span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
+	  <input name="website" placeholder="Descripción" class="form-control" type="text">
+		</div>
+	  </div>
+	</div>
+	
+	<!-- radio checks -->
+	 
+	
+	<!-- Text area -->
+	  
+	<div class="form-group">
+	  <label class="col-md-4 control-label">xxxxx</label>
+		<div class="col-md-4 inputGroupContainer">
+		<div class="input-group">
+			<span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+				<textarea class="form-control" name="comment" placeholder="xxxxxxxxx"></textarea>
+	  </div>
+	  </div>
+	</div>
+	
+	<!-- Success message -->
+	<div class="alert alert-success" role="alert" id="success_message">---- <i class="glyphicon glyphicon-thumbs-up"></i> Gracias por contactarnos! esperamos encontrar a tu persona pronto.</div>
+	
+	<!-- Button -->
+	<div class="form-group">
+	  <label class="col-md-4 control-label"></label>
+	  <div class="col-md-4">
+		<button type="submit" class="btn btn-warning" >Envíar <span class="glyphicon glyphicon-send"></span></button>
+	  </div>
+	</div>
+	
+	</fieldset>
+	</form>
+	</div>
+		</div><!-- /.container -->
+
+		</body>
 </html>
