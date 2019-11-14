@@ -1,0 +1,8 @@
+use:hover {
+  fill: #E55D76;
+cursor: pointer;
+}
+.state--selected use {
+fill: #F9BC5C;
+cursor: default;
+}
