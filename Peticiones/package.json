@@ -1,0 +1,19 @@
+{
+  "name": "peticiones",
+  "version": "1.0.0",
+  "description": "Esta es una practica de cinta roja",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "cintaroja",
+    "request"
+  ],
+  "author": "Kevin Ruiz",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
